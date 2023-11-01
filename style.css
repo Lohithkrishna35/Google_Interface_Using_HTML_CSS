@@ -1,0 +1,208 @@
+/* Styling of navigation bar */
+#navdiv {
+  width: 17%;
+  margin-left: 82%;
+  margin-top: 1%;
+  height: 35px;
+}
+
+nav img {
+  margin-top: 5px;
+}
+
+#profile-pic {
+  width: 38px;
+  height: 38px;
+  border-radius: 25px;
+  float: right;
+  padding: 0px;
+  position: relative;
+  top: 0px;
+}
+
+/*Apps Block Styling*/
+
+#dropdown-menu {
+  padding: 5px;
+  font-size: 30px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+  margin: 4px;
+  right: 6px;
+}
+
+#input-wrapper {
+  position: relative;
+  width: 452px;
+  display: none;
+  float: right;
+  top: 0px;
+  left: 0px;
+}
+
+#input-wrapper>img {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 28px;
+}
+
+#input-wrapper:hover {
+  display: block;
+}
+
+#app-dropdown {
+  width: 285px;
+  padding: 28px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 23px;
+  border-radius: 29px;
+}
+
+#dropdown-menu:hover+#input-wrapper {
+  display: block;
+}
+
+.app-iteam {
+  display: inline-block;
+  width: 91px;
+  margin-bottom: 11px;
+  padding: 9px -6px;
+  text-align: center;
+}
+
+.app-iteam:hover {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.app-iteam>img {
+  width: 50px;
+  height: 50px;
+}
+
+.app-iteam>p {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+  padding-top: 8px;
+}
+
+#googleimg {
+  margin-top: 100px;
+}
+
+/* Removing underline from links*/
+a {
+  margin-top: 5px;
+  text-decoration: none;
+  padding: 5px;
+  position: relative;
+  top: 13px;
+  left: 50px;
+}
+
+section {
+  text-align: center;
+  padding: 12%;
+}
+
+button {
+  border-radius: 3px;
+  height: 100%;
+  padding: 5px 12px;
+  background-color: #4C87E1;
+  color: white;
+  border: none;
+}
+
+input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 0px;
+}
+
+/* Styling the unordered list */
+
+ul {
+  display: flex;
+  width: 27%;
+  padding-left: 0px;
+  list-style: none;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+#Bottomdiv {
+  display: flex;
+  font-size: 12px;
+  margin-top: 1%;
+}
+
+#Bottomdiv span {
+  width: 9%;
+  margin-left: 27%;
+  position: relative;
+  top: 19px;
+}
+
+/*When hovered*/
+a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  border: 1px solid gray;
+}
+
+/* Search bar Styling */
+
+#Search-box {
+  width: 40%;
+  color: #222;
+  border: 1px solid #dfe1e5;
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 45px;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 24px;
+}
+
+#Search-box:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0)
+}
+
+#Search-box:focus {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0)
+}
+
+/*Button Styling*/
+
+.cutom-btn {
+  background-color: #f2f2f2;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
+  padding: 0 16px;
+  background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+  border: 1px solid transparent;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+  color: #222;
+}
+
+.cutom-btn:hover {
+  background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222
+}
+
+.cutom-btn:first-of-type {
+  margin-right: 16px;
+}
